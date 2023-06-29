@@ -3,8 +3,10 @@ const app = express()
 
 app.get('/', (request, response) => {
     return response.json({
-        message: "Testando"
+        message: "Testando, acho que melhorei um pouco. Agora tudo se atualiza em tempo real!"
     })
 })
 
-app.listen(3000)
+app.listen(3000, () => {
+    console.log("Testando aplicacao")
+})

@@ -12,6 +12,10 @@
 ## Aula 05
     Criando uma aplicacao que define uma porta e o padrao de resposta
 
+## Aula 06
+    npx - executa um comando
+    nodemon exercuta em tempo real a aplicacao
+    atraves do "script" no package.json tem como criar o comando "start", ja conhecido do node, para automatizar o nodemon
 
 
 ## Comandos de terminar
