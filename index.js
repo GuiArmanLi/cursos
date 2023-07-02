@@ -1,26 +1,23 @@
 const express = require("express")
 const app = express()
 
-pessoa = [
-    {
-        nome: "Guilherme",
-        idade: 20,
-        profissao: "Auxiliar de Legalizacao"
-    },
-    {
-        nome: "Paulo",
-        idade: 21,
-        profissao: "Vagabundo"
-    }
-]
+// Get
+app.get('/getInformation', (request, response) => {
+    // Primeira forma
+    const query = request.query
+    console.log(query)
 
-app.get('/', (request, response) => {
+    // Segunda Forma
+    const {title, owner} = request.query
+    console.log(title, owner)
+
     return response.json({
-        message: "Testando, acho que melhorei um pouco. Agora tudo se atualiza em tempo real!\nAqui aparece no navegador. Mudei ein"
+        message: "Mosquito morto!"
     })
 })
 
-app.post('/object', (request, response)=>{
+// Post
+app.post('/newData', (request, response)=>{
     return response.json({
         nome: "Lucas",
         idade: 20,
@@ -28,15 +25,8 @@ app.post('/object', (request, response)=>{
     })
 })
 
-app.post('/object', (request, response)=>{
-    return response.json({
-        nome: "Lucas",
-        idade: 20,
-        profissao: "Estagiario"
-    })
-})
-
-app.put('/object/:id', (request, response)=>{
+// Put
+app.put('/change/:id', (request, response)=>{
     return response.json({
         nome: "Lucas",
         idade: 20,
@@ -45,6 +35,7 @@ app.put('/object/:id', (request, response)=>{
     })
 })
 
+// Delete
 app.delete('/object/:id', (request, response)=>{
     return response.json({
         nome: "Paulo",
@@ -53,6 +44,7 @@ app.delete('/object/:id', (request, response)=>{
     })
 })
 
+// Escutando o Programa
 app.listen(3000, () => {
     console.log("Aqui aparece no Terminal")
 })
