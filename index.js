@@ -22,7 +22,34 @@ app.get('/', (request, response) => {
 
 app.post('/object', (request, response)=>{
     return response.json({
-        message: "testing the program"
+        nome: "Lucas",
+        idade: 20,
+        profissao: "Estagiario"
+    })
+})
+
+app.post('/object', (request, response)=>{
+    return response.json({
+        nome: "Lucas",
+        idade: 20,
+        profissao: "Estagiario"
+    })
+})
+
+app.put('/object/:id', (request, response)=>{
+    return response.json({
+        nome: "Lucas",
+        idade: 20,
+        profissao: "Analista de BD",
+        obs: "Parabens, foi promovido!"
+    })
+})
+
+app.delete('/object/:id', (request, response)=>{
+    return response.json({
+        nome: "Paulo",
+        idade: 21,
+        profissao: "Vagabundo"
     })
 })
 
