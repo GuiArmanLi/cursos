@@ -26,15 +26,19 @@
     Usada para paginacao e consulta de dados
 
 ## 10
-    Se tiver mais de 1 parametro da request, tem que colocar os parametros na rota
+    request.params - Usado para receber valores atraves dos parametros de rota de pesquisa da URL
 
     Necessario fazer conversao de parametros recebidos
 
 ## Aula 11
+    request.body - Usado para receber valores atraves do corpo da aplicacao
 
+    probably the most used in sites and e.g
 
 ## Aula 12
-
+    Biblioteca uuid
+    Status na criacao de Post
+    Push
 
 ## Aula 13
 

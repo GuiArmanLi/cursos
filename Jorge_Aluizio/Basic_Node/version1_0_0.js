@@ -1,7 +1,6 @@
 const express = require("express")
 const app = express()
 
-// Get
 app.get('/getInformation', (request, response) => {
     // Primeira forma
     const query = request.query
@@ -16,7 +15,6 @@ app.get('/getInformation', (request, response) => {
     })
 })
 
-// Post
 app.post('/newData', (request, response)=>{
     return response.json({
         nome: "Lucas",
@@ -25,7 +23,6 @@ app.post('/newData', (request, response)=>{
     })
 })
 
-// Put
 app.put('/change/:id', (request, response)=>{
     return response.json({
         nome: "Lucas",
@@ -35,7 +32,6 @@ app.put('/change/:id', (request, response)=>{
     })
 })
 
-// Delete
 app.delete('/object/:id', (request, response)=>{
     return response.json({
         nome: "Paulo",
@@ -44,7 +40,6 @@ app.delete('/object/:id', (request, response)=>{
     })
 })
 
-// Escutando o Programa
 app.listen(3000, () => {
     console.log("Aqui aparece no Terminal")
 })
