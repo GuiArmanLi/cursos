@@ -4,14 +4,7 @@ app.use(express.json())
 
 const { v4: uuidv4 } = require('uuid');
 
-const products = [
-    {
-        id: uuidv4(),
-        nome: "Guilherme",
-        peso: 62,
-        tamanho: 1.81
-    }
-]
+const products = []
 
 app.get('/getInformation', (request, response) => {
     return response.json({
@@ -20,9 +13,9 @@ app.get('/getInformation', (request, response) => {
 })
 
 app.post('/newData', (req, res) =>{
-    const {nome, peso, tamanho} = req.body
+    const {name, price, describe} = req.body
 
-    const product = {id: uuidv4(), nome, peso, tamanho}
+    const product = {id: uuidv4(), name, price, describe}
 
     products.push(product)
     console.log(product)
@@ -32,16 +25,27 @@ app.post('/newData', (req, res) =>{
     })
 })
 
-app.put('/change/:id', (request, response)=>{
-    return ""
+app.put('/alterProduct{id}', (request, response) => {
+    const {id} = request.params
+    const {name, price} = request.body
 
+    const indexProduct = products.findIndex(p => p.id === id)
+    if (indexProduct < 0){
+        return response.status(404).json({
+            error: "Product not found"
+        })
+    }
+
+    if (!name || !price){
+        return response.status(204).json({
+            message: "Please, put the name and price of the product to alter the item!"
+        })
+    }
+
+    const product = {name, price}   
+    products[indexProduct] = product
+
+    return response.status(200).json(products)
 })
 
-app.delete('/object/:id', (request, response)=>{
-    return ""
-})
-
-// Escutando o Programa
-app.listen(3001, () => {
-    console.log("Rodando no VS")
-})
+app.listen(3001, () => {})

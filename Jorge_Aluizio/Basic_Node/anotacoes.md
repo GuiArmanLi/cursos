@@ -41,10 +41,23 @@
     Push
 
 ## Aula 13
-
+    Construido um metodo de Put
 
 ## Aula 14
+    Construindo um metodo de Delete
 
+## Aula 15
+
+## Aula 16
+
+
+## Aula 17
+
+
+## Aula 18
+
+
+# Conclusao do Curso
 
 ### Comandos de terminar
     <aplicacao> -v -Mostra a versao da aplicacao
