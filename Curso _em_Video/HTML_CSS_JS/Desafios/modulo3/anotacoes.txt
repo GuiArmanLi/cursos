@@ -1,9 +1,0 @@
-background-position: ;
-background-image: url('');
-background-size: ; cover
-background-repeat: ;
-background-attachment: ; fixed
-
-color image position repeat size attachment
-
-overflow
