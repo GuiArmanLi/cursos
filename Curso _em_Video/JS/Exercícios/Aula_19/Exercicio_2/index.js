@@ -1,55 +1,48 @@
-const idade = document.getElementById("idade");
-const masculino = document.getElementById("masculino");
-const feminino = document.getElementById("feminino");
+const m = document.getElementById("masculino");
+const f = document.getElementById("feminino");
 
-const teste = document.getElementById("teste")
-const botao = document.getElementById("botao");
+const btn = document.getElementById("btn");
 const contentImage = document.getElementById("content-image");
-const imagem = document.getElementById("imagem");
+const img = document.getElementById("img");
 
-//Verificador de marcação do Input Radio
-masculino.addEventListener("click", () => {
-    if (feminino.checked) {
-        feminino.checked = false;;
-    }
-})
+m.addEventListener("click", () => { f.checked ? f.checked = false : null })
 
-feminino.addEventListener("click", () => {
-    if (masculino.checked) {
-        masculino.checked = false;;
-    }
-})
+f.addEventListener("click", () => { m.checked ? m.checked = false : null })
 
-//Exibir imagem de acordo com idade e sexo
-botao.addEventListener("click", () => {
+btn.addEventListener("click", () => {
+    const age = document.getElementById("age");
+    age.value == "" ? age.value = 0 : null;
     try {
         contentImage.style.display = "block";
-        if (masculino.checked) {
-            if (idade.value < 18) {
-                imagem.src = "https://img.freepik.com/vetores-premium/desenho-de-menino-bonito_18591-41527.jpg";
-            } else if (idade.value < 64) {
-                imagem.src = "https://uploads.metropoles.com/wp-content/uploads/2023/06/21181304/destaque-1-2.jpg";
+        if (m.checked && age.value != 0) {
+            console.log(age.value)
+            if (age.value < 18) {
+                img.src = "images/menino.jpeg";
+            } else if (age.value < 64) {
+                img.src = "images/homem.jpg";
             } else {
-                imagem.src = "https://c.pxhere.com/photos/de/5c/photo-144152.jpg!d"
+                img.src = "images/velho.jpg"
             }
-        } else if (feminino.checked) {
-            if (idade.value < 18) {
-                imagem.src = "https://i.pinimg.com/736x/e7/a0/18/e7a01869a1581393e8178c7d8ef0407c.jpg"
-            } else if (idade.value < 64) {
-                imagem.src = "https://assets.propmark.com.br/uploads/2022/02/WhatsApp-Image-2022-02-18-at-08.52.06.jpeg"
+        } else if (f.checked && age.value != 0) {
+            if (age.value < 18) {
+                img.src = "images/menina.jpg"
+            } else if (age.value < 64) {
+                img.src = "images/mulher.jpg"
             } else {
-                imagem.src = "https://img.freepik.com/fotos-premium/mulher-velha-posando-dentro-de-casa-vista-frontal_23-2149883543.jpg?w=2000"
+                img.src = "images/velha.jpg"
             }
         }
         else {
-            image.src = "https://compras.wiki.ufsc.br/images/5/56/Erro.png";
+            if (age.value < 120) {
+                alert("Digite um valor valido!")
+            }
+            img.src = "images/erro.png";
         }
     } catch (error) {
         alert(error)
     } finally {
-        idade.value = "";
-        masculino.checked = false;
-        feminino.checked = false;
+        age.value = "";
+        m.checked = false;
+        f.checked = false;
     }
-
 })
