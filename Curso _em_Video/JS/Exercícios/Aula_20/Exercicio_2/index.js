@@ -14,12 +14,16 @@ btn.addEventListener("click", () => {
 })
 
 function gerarTabuada() {
-    _number = Number(number.value)
+    let _number = Number(number.value)
     let res = 0;
     let options = "";
+
     for (let i = 0; i <= 10; i++) {
         res = _number * i;
         options += `<option>${_number} x ${i} = ${res}</option>`
     }
-    table.innerHTML = `<optgroup>${options}</optgroup>`
+
+    table.innerHTML = `<select>${options}</select>`
+    table.style.display = "block";
+    console.log(table.innerHTML)
 }

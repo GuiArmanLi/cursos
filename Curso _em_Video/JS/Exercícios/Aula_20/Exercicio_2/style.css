@@ -60,12 +60,7 @@ select {
     display: none;
 }
 
-option {
-    background-color: lightblue;
-    color: lightcoral;
-}
-
 option:nth-child(odd) {
-    background-color: lightcoral;
-    color: lightblue;
+    background-color: lightgray;
+    color: white;
 }
