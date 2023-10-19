@@ -1,2 +1,2 @@
 # Internet-Courses
-  Repositório destinado a praticar através de curso da Internet.
+  Repositório destinado a praticar através de cursos da Internet.
