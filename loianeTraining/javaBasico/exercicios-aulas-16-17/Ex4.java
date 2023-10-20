@@ -1,14 +1,16 @@
 public class Ex4 {
     public static void main(String[] args) {
-        var populationA = 80000;
-        var populationB = 200000;
-        int ano;
+        var peopleA = 80000;
+        var peopleB = 200000;
+        int year;
 
-        for (ano = 0; populationA < populationB; ano++) {
-            populationA *= 1.03;
-            populationB *= 1.015;
+        for (year = 0; peopleA < peopleB; year++) {
+            peopleA *= 1.03;
+            peopleB *= 1.015;
         }
 
-        System.out.println("Levou " + ano + " anos para o pais A superar o B");
+        System.out.println("Populacao A: " + peopleA);
+        System.out.println("Populacao B: " + peopleB);
+        System.out.println("Levou " + year + " anos para o pais A superar o B");
     }
 }

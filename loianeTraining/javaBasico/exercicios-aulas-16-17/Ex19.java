@@ -5,30 +5,30 @@ public class Ex19 {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Digite quantos numeros deseja entrar");
-        var quantidadeDeLeituras = scan.nextInt();
+        var reading = scan.nextInt();
 
-        var numero = 0;
-        var soma = 0;
-        var maiorNumero = 0;
-        for (int i = 0; i < quantidadeDeLeituras; i++) {
+        var number = 0;
+        var sum = 0;
+        var higherNumber = 0;
+        for (int i = 0; i < reading; i++) {
             System.out.println("Digite um numero");
-            numero = scan.nextInt();
+            number = scan.nextInt();
 
-            if (numero < 0 || numero > 1000) {
+            if (number < 0 || number > 1000) {
                 System.out.println("Digite apenas numero entre 0 - 1000");
                 scan.close();
-                return;
+                break;
             }
 
-            soma += numero;
-            if (numero > maiorNumero) {
-                maiorNumero = numero;
+            sum += number;
+            if (number > higherNumber) {
+                higherNumber = number;
             }
         }
 
-        System.out.println("Voce digitou " + numero + " numeros");
-        System.out.println("Soma: " + soma);
-        System.out.println("Maior numero digitado: " + maiorNumero);
+        System.out.println("Voce digitou " + number + " numeros");
+        System.out.println("Soma: " + sum);
+        System.out.println("Maior numero digitado: " + higherNumber);
         scan.close();
     }
 }

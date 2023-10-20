@@ -7,8 +7,10 @@ public class Ex2 {
         var password = "";
 
         do {
-            System.out.println("Digite seu nome e sua senha");
+            System.out.println("Digite seu nome");
             name = scan.nextLine();
+            
+            System.out.println("Digite sua senha");
             password = scan.nextLine();
         } while (name.equals(password));
         scan.close();

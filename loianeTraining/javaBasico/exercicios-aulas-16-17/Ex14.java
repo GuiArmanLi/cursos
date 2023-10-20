@@ -4,18 +4,18 @@ public class Ex14 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        var numero = 0;
-        var quantidadeDePares = 0;
-        var quantidadeDeImpares = 0;
+        var number = 0;
+        var quantityOfPair = 0;
+        var quantityOfOdd = 0;
         for (int i = 0; i < 10; i++) {
-            numero = scan.nextInt();
-            if (numero % 2 == 0) {
-                quantidadeDePares++;
+            number = scan.nextInt();
+            if (number % 2 == 0) {
+                quantityOfPair++;
             } else {
-                quantidadeDeImpares++;
+                quantityOfOdd++;
             }
         }
-        System.out.println("Pares: " + quantidadeDePares + " | Impares: " + quantidadeDeImpares);
+        System.out.println("Pares: " + quantityOfPair + " | Impares: " + quantityOfOdd);
         scan.close();
     }
 }

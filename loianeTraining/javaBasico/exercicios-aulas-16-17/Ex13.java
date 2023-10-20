@@ -5,14 +5,14 @@ public class Ex13 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Digite a base e o expoente");
         var base = scan.nextInt();
-        var expoente = scan.nextInt();
+        var exponent = scan.nextInt();
 
-        var resultado = base;
-        for (int i = 0; i < expoente; i++) {
-            resultado *= base;
+        var result = base;
+        for (int i = 1; i < exponent; i++) {
+            result *= base;
         }
 
-        System.out.println(resultado);
+        System.out.println(result);
         scan.close();
     }
 }

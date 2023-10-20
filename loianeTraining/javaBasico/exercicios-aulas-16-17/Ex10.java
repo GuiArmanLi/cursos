@@ -8,19 +8,19 @@ public class Ex10 {
         var number1 = scan.nextInt();
         var number2 = scan.nextInt();
 
-        var maior = 0;
-        var menor = 0;
+        var higher = 0;
+        var smallest = 0;
         if (number1 > number2) {
-            maior = number1;
-            menor = number2;
+            higher = number1;
+            smallest = number2;
         } else {
-            maior = number2;
-            menor = number1;
+            higher = number2;
+            smallest = number1;
         }
 
         System.out.println("Os numero inteiros entre " + number1 + " e " + number2 + " sao:");
-        for (int numberAtual = menor; numberAtual <= maior; numberAtual++) {
-            System.out.print(numberAtual + " ");
+        for (int currentNumber = smallest; currentNumber <= higher; currentNumber++) {
+            System.out.print(currentNumber + " ");
         }
         scan.close();
     }

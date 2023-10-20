@@ -8,19 +8,19 @@ public class Ex11 {
         var number1 = scan.nextInt();
         var number2 = scan.nextInt();
 
-        var maior = 0;
-        var menor = 0;
+        var higher = 0;
+        var smallest = 0;
         if (number1 > number2) {
-            maior = number1;
-            menor = number2;
+            higher = number1;
+            smallest = number2;
         } else {
-            maior = number2;
-            menor = number1;
+            higher = number2;
+            smallest = number1;
         }
 
         var soma = 0;
-        for (int numberAtual = menor; numberAtual <= maior; numberAtual++) {
-            soma += numberAtual;
+        for (int currentNumber = smallest; currentNumber <= higher; currentNumber++) {
+            soma += currentNumber;
         }
         System.out.println("A soma do intervalo entre os dois numero digitados e: " + soma);
         scan.close();
