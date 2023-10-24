@@ -6,10 +6,11 @@ public class Ex5 {
 
         var month = 12;
         var day = 30;
-        var hour = 24;
+        var hour = 8;
         String[][][] calendar = new String[month][day][hour];
-        var appointment = "";
-        var read = "";
+
+        String appointment;
+        String read;
         var add = true;
         while (add) {
             System.out.println("\nGostaria de marcar algum compromisso?\t \"Y\" - Yes | \"N\" - No | \"V\" - Ver agenda");
@@ -33,7 +34,7 @@ public class Ex5 {
                 appointment = scan.nextLine();
 
                 calendar[scheduleMonth][scheduleDay][scheduleHour] = appointment;
-            } else {
+            } else if (read.equalsIgnoreCase("V")) {
                 System.out.println("Voce tem os seguintes compromissos:");
 
                 for (int mMonth = 0; mMonth < calendar.length; mMonth++) {
@@ -47,10 +48,10 @@ public class Ex5 {
                         }
                     }
                 }
-            }
-
-            if (read.equalsIgnoreCase("N")) {
+            } else if (read.equalsIgnoreCase("N")) {
                 add = false;
+            } else {
+                System.out.println("Digite uma opcao valida");
             }
         }
         scan.close();
