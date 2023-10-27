@@ -6,11 +6,11 @@ public class Ex6 {
 
         String[][] hash = { { "-", "-", "-" }, { "-", "-", "-" }, { "-", "-", "-" } };
 
-        var endGame = false;
+        var continueGame = true;
         var turn = true;
         var selectedLine = 0;
         var selectedColumn = 0;
-        while (!endGame) {
+        while (continueGame) {
             if (turn) {
                 while (turn) {
                     System.out.println("Sua vez de Jogar");
@@ -61,21 +61,21 @@ public class Ex6 {
                 }
             }
 
-            var invertedDiagonalPointsX = 0;
-            var invertedDiagonalPointsO = 0;
+            var invertedDiagonalX = 0;
+            var invertedDiagonalO = 0;
             for (int line = hash.length - 1, cont = 0; line >= 0; line--, cont++) {
                 if (hash[cont][line].equals("X")) {
-                    invertedDiagonalPointsX++;
+                    invertedDiagonalX++;
 
-                    if (invertedDiagonalPointsX == 3) {
+                    if (invertedDiagonalX == 3) {
                         scan.close();
                         System.out.println("\n\nJogo acabou, Player 1 venceu");
                         return;
                     }
                 } else if (hash[cont][line].equals("O")) {
-                    invertedDiagonalPointsO++;
+                    invertedDiagonalO++;
 
-                    if (invertedDiagonalPointsO == 3) {
+                    if (invertedDiagonalO == 3) {
                         scan.close();
                         System.out.println("\n\nJogo acabou, Player 2 venceu");
                         return;
@@ -83,47 +83,47 @@ public class Ex6 {
                 }
             }
 
-            var diagonalPointsX = 0;
-            var diagonalPointsO = 0;
+            var diagonalX = 0;
+            var diagonalO = 0;
             for (int line = 0; line < hash.length; line++) {
 
                 if (hash[line][line].equals("X")) {
-                    diagonalPointsX++;
+                    diagonalX++;
 
-                    if (diagonalPointsX == 3) {
+                    if (diagonalX == 3) {
                         scan.close();
                         System.out.println("\n\nJogo acabou, Player 1");
                         return;
                     }
 
                 } else if (hash[line][line].equals("O")) {
-                    diagonalPointsO++;
+                    diagonalO++;
 
-                    if (diagonalPointsO == 3) {
+                    if (diagonalO == 3) {
                         scan.close();
                         System.out.println("\n\nJogo acabou, Player 2");
                         return;
                     }
                 }
 
-                var horizontalPointsX = 0;
-                var horizontalPointsO = 0;
-                var verticalPointsX = 0;
-                var verticalPointsO = 0;
+                var horizontalX = 0;
+                var horizontalO = 0;
+                var verticalX = 0;
+                var verticalO = 0;
                 for (int column = 0; column < hash.length; column++) {
 
                     if (hash[column][line].equals("X")) {
-                        verticalPointsX++;
+                        verticalX++;
 
-                        if (verticalPointsX == 3) {
+                        if (verticalX == 3) {
                             scan.close();
                             System.out.println("\n\nJogo acabou, Player 1");
                             return;
                         }
                     } else if (hash[column][line].equals("O")) {
-                        verticalPointsO++;
+                        verticalO++;
 
-                        if (verticalPointsO == 3) {
+                        if (verticalO == 3) {
                             scan.close();
                             System.out.println("\n\nJogo acabou, Player 2");
                             return;
@@ -131,17 +131,17 @@ public class Ex6 {
                     }
 
                     if (hash[line][column].equals("X")) {
-                        horizontalPointsX++;
+                        horizontalX++;
 
-                        if (horizontalPointsX == 3) {
+                        if (horizontalX == 3) {
                             scan.close();
                             System.out.println("\n\nJogo acabou, Player 1");
                             return;
                         }
                     } else if (hash[line][column].equals("O")) {
-                        horizontalPointsO++;
+                        horizontalO++;
 
-                        if (horizontalPointsO == 3) {
+                        if (horizontalO == 3) {
                             scan.close();
                             System.out.println("\n\nJogo acabou, Player 2");
                             return;
@@ -152,7 +152,7 @@ public class Ex6 {
 
             if (emptyCells == 0) {
                 System.out.println("Empate");
-                endGame = true;
+                continueGame = false;
             }
         }
         scan.close();
