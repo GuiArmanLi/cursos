@@ -1,3 +1,4 @@
+import java.util.Scanner;
 import java.util.UUID;
 
 public class Account {
@@ -7,49 +8,73 @@ public class Account {
     double limit;
 
     public void bankDraft(double withdraw) {
-        if (this.leftover < 0) {
-            System.out.println("Sem saldo");
-        } else if (this.leftover < withdraw) {
-            System.out.println("Toma " + (this.leftover - withdraw) + " seu pobre");
+        if (leftover - withdraw > 0) {
+            leftover -= withdraw;
+            System.out.println("Saque de " + withdraw);
+        } else if (leftover - withdraw < 0 && special) {
+            leftover -= withdraw;
+            System.out.println("Saque de " + withdraw + ". Voce esta devendo " + leftover);
         } else {
-            System.out.println("Toma " + withdraw);
+            System.out.println("Saldo Insuficiente. Saque maximo = " + leftover);
         }
     }
 
-    public void deposit(int deposit) {
-        this.leftover += deposit;
+    public void deposit(double deposit) {
+        leftover += deposit;
     }
 
     public String verifyLeftover() {
-        return "Saldo: " + this.leftover;
+        return "Saldo: " + leftover;
     }
 
     public boolean verifyCardCondition() {
-        return this.special;
+        return special;
     }
 
     public static void main(String[] args) {
-        Account nubank = new Account();
+        Scanner scan = new Scanner(System.in);
+        Account conta = new Account();
 
-        nubank.leftover = -100;
-        nubank.limit = 500;
-        nubank.special = true;
+        var useMachine = true;
+        int operation;
+        while (useMachine) {
+            System.out.println("\"1\" - Sacar");
+            System.out.println("\"2\" - Depositar");
+            System.out.println("\"3\" - Verificar Saldo");
+            System.out.println("\"4\" - Verificar Status do Cartao");
 
-        System.out.println("Guilherme chega ao caixa eletronico");
-        System.out.println("Guilherme deseja sacar todo o dinheiro que tem");
-        nubank.bankDraft(nubank.leftover);
+            operation = scan.nextInt();
 
-        System.out.println("Seleciona a opcao de consulta de saldo");
-        System.out.println(nubank.verifyLeftover());
+            switch (operation) {
+                case 1:
+                    System.out.println("Digite o valor a sacar");
+                    var withdraw = scan.nextDouble();
+                    conta.bankDraft(withdraw);
+                    break;
+                case 2:
+                    System.out.println("Digite o valor que deseja depositar");
+                    double depositValue = scan.nextDouble();
+                    conta.deposit(depositValue);
+                    break;
+                case 3:
+                    System.out.println(conta.verifyLeftover());
+                    break;
+                case 4:
+                    System.out.println(conta.verifyCardCondition());
+                    break;
+                default:
+                    System.out.println("Operacao invalida");
+                    break;
+            }
 
-        System.out.println("Guilherme tem toque com o numero 100, ele deposita R$100");
-        nubank.deposit(100);
+            System.out.println("Gostaria de realizar outra operacao? Y or N");
+            var newOperation = scan.nextLine();
+            scan.nextLine();
 
-        System.out.println("Guilherme quer comprar um tenis, mas quer usar cheque especial");
-        if (nubank.special) {
-            System.out.println("Guilherme consegue comprar o tenis");
-        } else {
-            System.out.println("Guilherme nao consegue comprar o tenis");
+            if (newOperation.equalsIgnoreCase("N")) {
+                useMachine = false;
+            }
         }
+        scan.close();
     }
 }

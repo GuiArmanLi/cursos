@@ -37,23 +37,30 @@ public class Student {
         System.out.println("Digite seu nome");
         student.name = scan.nextLine();
 
+        System.out.println("Digite o nome do seu curso");
+        student.course = scan.nextLine();
+
         for (int i = 0; i < student.disciplines.length; i++) {
             System.out.println("Qual nome da " + (i + 1) + " disciplina do seu curso?");
             student.disciplines[i] = scan.nextLine();
         }
 
         for (int i = 0; i < student.disciplines.length; i++) {
-            System.out.println("Digite a sua primeira nota da " + student.disciplines[i]);
-            student.notes[i][0] = scan.nextDouble();
-            System.out.println("Digite a sua segunda nota da " + student.disciplines[i]);
-            student.notes[i][1] = scan.nextDouble();
+            for (int j = 0; j < 2; j++) {
+                System.out.println("Nota " + (i + 1) + " da " + student.disciplines[i]);
+                student.notes[i][j] = scan.nextDouble();
+            }
         }
 
         var averageNotes = student.verifyApproval(student.notes);
+
+        System.out.println("Aluno: " + student.name);
+        System.out.println("Matricula: " + student.id);
+        System.out.println("Curso: " + student.course);
         for (int i = 0; i < student.disciplines.length; i++) {
             System.out.println("Disciplina - " + student.disciplines[i] +
-                    " - Nota " + averageNotes[i] +
-                    " - Resultado  - " + student.approval[i]);
+                    "\nNota " + averageNotes[i] +
+                    "\nResultado  - " + student.approval[i] + "\n");
         }
         scan.close();
     }

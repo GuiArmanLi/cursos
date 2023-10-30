@@ -5,20 +5,30 @@ public class Lamp {
     boolean isOn;
 
     public void turnOn() {
-        this.isOn = true;
+        isOn = true;
     }
 
     public void turnOff() {
-        this.isOn = false;
+        isOn = false;
+    }
+
+    public void displayStatus() {
+        if (isOn) {
+            System.out.println("Lampada ligada");
+        } else {
+            System.out.println("Lampada desligada");
+        }
     }
 
     public static void main(String[] args) {
-        Lamp lampada = new Lamp();
+        Lamp lamp = new Lamp();
 
-        System.out.println("A lampada esta ligada?\t" + lampada.isOn);
-        lampada.turnOn();
-        System.out.println("A lampada esta ligada?\t" + lampada.isOn);
-        lampada.turnOff();
-        System.out.println("A lampada esta ligada?\t" + lampada.isOn);
+        lamp.displayStatus();
+        lamp.turnOn();
+        lamp.displayStatus();
+        lamp.turnOff();
+        lamp.displayStatus();
+        lamp.turnOn();
+        lamp.displayStatus();
     }
 }

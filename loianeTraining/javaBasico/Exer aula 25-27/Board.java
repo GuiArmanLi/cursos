@@ -43,7 +43,7 @@ public class Board {
     private void validateMove(int line, int column) {
         if ((line < 0 || line > 2) || (column < 0 || column > 2)) {
             System.out.println("Numero invalido");
-            
+
         } else if (playerX && board[line][column].equals("O")
                 || playerX == false && board[line][column].equals("X")) {
             System.out.println("Campo invalido");
@@ -128,5 +128,19 @@ public class Board {
             }
         }
         return true;
+    }
+
+    public static void main(String[] args) {
+        Board board = new Board();
+
+        boolean continueGame = true;
+
+        System.out.println("Entre com 1 - 3");
+        while (continueGame) {
+            System.out.println("Seu turno");
+            board.play();
+            board.displayBoard();
+            continueGame = !board.checkBoard();
+        }
     }
 }
