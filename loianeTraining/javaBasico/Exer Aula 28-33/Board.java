@@ -3,11 +3,42 @@ import java.util.Scanner;
 public class Board {
     Scanner scan = new Scanner(System.in);
 
-    String[][] board = { { "-", "-", "-" }, { "-", "-", "-" }, { "-", "-", "-", } };
-    boolean playerX = true;
-    boolean validMove;
-    int x;
-    int o;
+    private String[][] board = { { "-", "-", "-" }, { "-", "-", "-" }, { "-", "-", "-" } };
+    private boolean playerX;
+    private boolean validMove;
+    private int x;
+    private int o;
+
+    Board() {
+    }
+
+    Board(boolean playerX) {
+        this.playerX = playerX;
+    }
+
+    public String[][] getBoard() {
+        return this.board;
+    }
+
+    public boolean getPlayerX() {
+        return this.playerX;
+    }
+
+    public boolean getValidMove() {
+        return this.validMove;
+    }
+
+    public int getX() {
+        return this.x;
+    }
+
+    public int getO() {
+        return this.o;
+    }
+
+    public void setPlayerX(boolean playerX) {
+        this.playerX = playerX;
+    }
 
     public void play() {
         var selectedLine = 0;
