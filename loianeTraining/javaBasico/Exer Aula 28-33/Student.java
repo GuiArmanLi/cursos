@@ -87,24 +87,20 @@ public class Student {
         Student student = new Student();
 
         System.out.println("Digite seu nome");
-        var name = scan.nextLine();
-        student.setName(name);
+        student.setName(scan.nextLine());
 
         System.out.println("Digite o nome do seu curso");
-        var course = scan.nextLine();
-        student.setCourse(course);
+        student.setCourse(scan.nextLine());
 
         for (int i = 0; i < student.getDisciplines().length; i++) {
             System.out.println("Qual nome da " + (i + 1) + " disciplina do seu curso?");
-            var discipline = scan.nextLine();
-            student.setDisciplines(i, discipline);
+            student.setDisciplines(i, scan.nextLine());
         }
 
         for (int line = 0; line < student.disciplines.length; line++) {
             for (int column = 0; column < 2; column++) {
                 System.out.println("Nota " + (line + 1) + " da " + student.getDisciplines()[line]);
-                var note = scan.nextDouble();
-                student.setNotes(line, column, note);
+                student.setNotes(line, column, scan.nextDouble());
             }
         }
 

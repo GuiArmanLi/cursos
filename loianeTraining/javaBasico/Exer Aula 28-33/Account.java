@@ -28,7 +28,7 @@ public class Account {
         this.leftover = leftover;
     }
 
-    public boolean getSpecial() {
+    public boolean isSpecial() {
         return special;
     }
 
@@ -46,26 +46,26 @@ public class Account {
 
     public void bankDraft(double withdraw) {
         if (leftover - withdraw > 0) {
-            leftover -= withdraw;
+            setLeftover(leftover -= withdraw);
             System.out.println("Saque de " + withdraw);
         } else if (leftover - withdraw < 0 && special) {
-            leftover -= withdraw;
-            System.out.println("Saque de " + withdraw + ". Voce esta devendo " + leftover);
+            setLeftover(leftover -= withdraw);
+            System.out.println("Saque de " + withdraw + ". Voce esta devendo " + getLeftover());
         } else {
-            System.out.println("Saldo Insuficiente. Saque maximo = " + leftover);
+            System.out.println("Saldo Insuficiente. Saque maximo = " + getLeftover());
         }
     }
 
     public void deposit(double deposit) {
-        leftover += deposit;
+        setLeftover(leftover += deposit);
     }
 
     public String verifyLeftover() {
-        return "Saldo: " + leftover;
+        return "Saldo: " + getLeftover();
     }
 
     public boolean verifyCardCondition() {
-        return special;
+        return isSpecial();
     }
 
     public static void main(String[] args) {

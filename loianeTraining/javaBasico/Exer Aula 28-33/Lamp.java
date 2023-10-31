@@ -2,37 +2,37 @@ import java.util.UUID;
 
 public class Lamp {
     private UUID id = UUID.randomUUID();
-    private boolean isOn;
+    private boolean on;
 
     Lamp() {
     }
 
-    Lamp(boolean isOn) {
-        this.isOn = isOn;
+    Lamp(boolean on) {
+        this.on = on;
     }
 
     public UUID getId() {
         return id;
     }
 
-    public boolean getIsOn() {
-        return isOn;
+    public boolean isOn() {
+        return on;
     }
 
-    public void setIsOn(boolean isOn) {
-        this.isOn = isOn;
+    public void setOn(boolean on) {
+        this.on = on;
     }
 
     public void turnOn() {
-        isOn = true;
+        setOn(true);
     }
 
     public void turnOff() {
-        isOn = false;
+        setOn(false);
     }
 
     public void displayStatus() {
-        if (isOn) {
+        if (isOn()) {
             System.out.println("Lampada ligada");
         } else {
             System.out.println("Lampada desligada");
