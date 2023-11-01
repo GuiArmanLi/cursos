@@ -2,12 +2,11 @@ import java.util.Scanner;
 
 public class Sum {
     static int sum;
+
     public static void recursion(int number) {
-        sum += number;
-        System.out.println(number);
-        recursion(--number);
-        if (number == 0) {
-            return;
+        if (number > 0) {
+            sum += number;
+            recursion(--number);
         }
     }
 
@@ -18,6 +17,8 @@ public class Sum {
         int number = scan.nextInt();
 
         Sum.recursion(number);
+        System.out.println(sum);
+
         scan.close();
     }
 }
