@@ -1,26 +1,22 @@
 import java.util.Scanner;
 
 class Fibonacci {
-    static int previousNumber;
-
-    public static void displaySequenceFibonacci(int size, int currentValue) {
-        if (size > 0) {
-            System.out.print(currentValue + ", ");
-
-            previousNumber = currentValue - previousNumber;
-            currentValue += previousNumber;
-
-            displaySequenceFibonacci(--size, currentValue);
+    public static int displayFibonacci(int size) {
+        if (size < 2) {
+            return 1;
         }
+        return displayFibonacci(size - 1) + displayFibonacci(size - 2);
     }
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Digite o tamanho da sequencia de Fibonacci");
+        System.out.println("Digite o n numero da sequencia de Fibonacci");
         var size = scan.nextInt();
 
-        Fibonacci.displaySequenceFibonacci(size, 1);
+        var result = Fibonacci.displayFibonacci(size);
+
+        System.out.println(result);
         scan.close();
     }
 }

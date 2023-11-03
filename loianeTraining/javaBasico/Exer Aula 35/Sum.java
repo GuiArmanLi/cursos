@@ -1,13 +1,12 @@
 import java.util.Scanner;
 
 public class Sum {
-    static int sum;
-
-    public static void recursion(int number) {
-        if (number > 0) {
-            sum += number;
-            recursion(--number);
+    public static int recursion(int number) {
+        if (number == 1){
+            return 1;
         }
+
+        return number + recursion(number - 1);
     }
 
     public static void main(String[] args) {
@@ -16,9 +15,8 @@ public class Sum {
         System.out.println("Digite um numero inteiro");
         int number = scan.nextInt();
 
-        Sum.recursion(number);
-        System.out.println(sum);
-
+        var result = Sum.recursion(number);
+        System.out.println(result);
         scan.close();
     }
 }
