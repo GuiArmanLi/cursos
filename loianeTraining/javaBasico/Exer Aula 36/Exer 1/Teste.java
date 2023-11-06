@@ -5,21 +5,20 @@ public class Teste {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Digite o nome da Agenda");
-        Schedule schedule = new Schedule(scan.nextLine(), null);
+        var scheduleName = scan.nextLine();
 
         Contact contacts[] = new Contact[3];
         for (int i = 0; i < contacts.length; i++) {
-            Phone phones[] = new Phone[2];
-            Email emails[] = new Email[2];
-
             System.out.println("Entre com o Nome do " + (i + 1) + " contato");
             var name = scan.nextLine();
 
+            Phone phones[] = new Phone[2];
             for (int j = 0; j < phones.length; j++) {
                 System.out.println("DDD e numero do contato " + (j + 1) + " separadamente");
                 phones[j] = new Phone(scan.nextLine(), scan.nextLine());
             }
 
+            Email emails[] = new Email[2];
             for (int j = 0; j < emails.length; j++) {
                 System.out.println("Entre com " + (j + 1) + " Email do " + (i + 1) + " contato");
                 emails[j] = new Email(scan.nextLine());
@@ -29,7 +28,7 @@ public class Teste {
             contacts[i] = contact;
         }
 
-        schedule.setContacts(contacts);
+        Schedule schedule = new Schedule(scheduleName, contacts);
 
         System.out.println("Membros da agenda");
         for (Contact contact : schedule.getContacts()) {
@@ -42,6 +41,7 @@ public class Teste {
             for (Email email : contact.getEmails()) {
                 System.out.print(" | " + email.getEmail());
             }
+            System.out.println();
         }
         scan.close();
     }

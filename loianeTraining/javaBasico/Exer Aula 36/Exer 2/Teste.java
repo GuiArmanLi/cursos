@@ -28,7 +28,7 @@ public class Teste {
 
             int notes[] = new int[4];
             for (int pos = 0; pos < notes.length; pos++) {
-                System.out.print((pos + 1) + " nota do aluno");
+                System.out.print((pos + 1) + " nota do aluno ");
                 notes[pos] = scan.nextInt();
             }
 
@@ -42,30 +42,14 @@ public class Teste {
         for (Student student : course.getStudents()) {
             System.out.print(student.getName() + " - ");
 
-            double averageNotes = averageNotes(student.getNotes());
+            double averageNotes = student.averageNotes(student.getNotes());
             System.out.print("Media: " + averageNotes + " | ");
 
-            System.out.println(isApproval(averageNotes));
+            System.out.println(student.isApproval(averageNotes));
             averageTeam += averageNotes;
         }
 
         System.out.println("Media da Turma: " + averageTeam / students.length);
         scan.close();
-    }
-
-    private static double averageNotes(int[] notes) {
-        int sum = 0;
-        for (int note : notes) {
-            sum += note;
-        }
-
-        return sum / notes.length;
-    }
-
-    private static String isApproval(double averageNotes) {
-        if (averageNotes >= 7) {
-            return "Aprovado";
-        }
-        return "Reprovado";
     }
 }

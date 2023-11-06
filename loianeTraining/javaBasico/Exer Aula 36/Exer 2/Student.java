@@ -35,4 +35,20 @@ public class Student {
     public void setNotes(int[] notes) {
         this.notes = notes;
     }
+
+    public double averageNotes(int[] notes) {
+        int sum = 0;
+        for (int note : notes) {
+            sum += note;
+        }
+
+        return sum / notes.length;
+    }
+
+    public String isApproval(double averageNotes) {
+        if (averageNotes >= 7) {
+            return "Aprovado";
+        }
+        return "Reprovado";
+    }
 }
