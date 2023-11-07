@@ -28,10 +28,10 @@ public class SpecialAccount extends Account {
 
     @Override
     public void withdraw(double withdraw) {
-        if (getBalance() - withdraw > -limit) {
-            setBalance(getBalance() - withdraw);
+        if (getBalance() + limit - withdraw < 0) {
+            System.out.println("Saldo Insuficiente.\tSaldo Atual: " + getBalance());
         } else {
-            System.out.println("Saldo Insuficiente");
+            setBalance(getBalance() - withdraw);
         }
     }
 }

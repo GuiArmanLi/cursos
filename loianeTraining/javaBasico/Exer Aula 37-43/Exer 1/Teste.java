@@ -19,7 +19,7 @@ public class Teste {
         var newBalance = savingAccount.calculateNewBalance(8);
         System.out.println("Rendimento diario: " + newBalance);
 
-        System.out.println(savingAccount.toString());
+        System.out.println(savingAccount);
 
         System.out.println("======================================================================");
         System.out.println("Conta especial do " + specialAccount.getClientName());
@@ -31,6 +31,6 @@ public class Teste {
         specialAccount.deposit(400);
         System.out.println("Saldo: " + format.format(specialAccount.getBalance()));
 
-        System.out.println(specialAccount.toString());
+        System.out.println(specialAccount);
     }
 }
