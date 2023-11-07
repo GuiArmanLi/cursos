@@ -25,7 +25,7 @@ public class Teste {
         System.out.println("Conta especial do " + specialAccount.getClientName());
 
         System.out.println("Saldo: " + format.format(specialAccount.getBalance()));
-        specialAccount.withdraw(200);
+        specialAccount.withdraw(1400);
         System.out.println("Saldo: " + format.format(specialAccount.getBalance()));
 
         specialAccount.deposit(400);
