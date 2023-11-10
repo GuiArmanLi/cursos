@@ -1,3 +1,3 @@
 public interface VolumetricDimension {
-    double calculateVolume(double param, double anotherParam);
+    double calculateVolume(double base);
 }

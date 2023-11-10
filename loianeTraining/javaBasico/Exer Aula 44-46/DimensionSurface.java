@@ -1,3 +1,3 @@
 public interface DimensionSurface {
-    double calculateArea(double parameter);
+    double calculateArea(double param);
 }

@@ -8,6 +8,6 @@ public class Circle extends Shape2D {
 
     @Override
     public double calculateArea(double radius) {
-        return radius * Math.PI;
+        return Math.pow(radius, 2) * Math.PI;
     }
 }

@@ -1,4 +1,4 @@
-public abstract class Shape3D extends GeometricShape implements VolumetricDimension {
+public abstract class Shape3D extends GeometricShape implements DimensionSurface, VolumetricDimension {
     public Shape3D() {
     }
 
