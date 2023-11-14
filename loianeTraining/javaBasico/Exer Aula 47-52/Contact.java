@@ -1,22 +1,23 @@
 public class Contact {
-    private int id;
+    private static int contador = 0;
+    private int id = 0;
     private String name;
-    private String phoneNumber;
+    private String email;
 
     public Contact() {
+        contador++;
+        this.id = contador;
     }
-
-    public Contact(int id, String name, String phoneNumber) {
+    
+    public Contact(String name, String email) {
+        contador++;
+        this.id = contador;
         this.name = name;
-        this.phoneNumber = phoneNumber;
+        this.email = email;
     }
 
     public int getId() {
         return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getName() {
@@ -27,11 +28,16 @@ public class Contact {
         this.name = name;
     }
 
-    public String getPhoneNumber() {
-        return phoneNumber;
+    public String getEmail() {
+        return email;
     }
 
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    @Override
+    public String toString() {
+        return "[\tname = " + name + ", email = " + email + "\t]";
     }
 }
