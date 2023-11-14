@@ -8,7 +8,7 @@ public class Contact {
         contador++;
         this.id = contador;
     }
-    
+
     public Contact(String name, String email) {
         contador++;
         this.id = contador;
@@ -38,6 +38,6 @@ public class Contact {
 
     @Override
     public String toString() {
-        return "[\tname = " + name + ", email = " + email + "\t]";
+        return " { name = " + name + ", email = " + email + " } ";
     }
 }

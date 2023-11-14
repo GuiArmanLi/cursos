@@ -9,18 +9,20 @@ public class Schedule {
 
     @Override
     public String toString() {
-        String array = "Agenda [\n";
+        String array = "Agenda [ ";
         for (Contact contact : contacts) {
-            array += contact + "\t";
+            if (contact != null) {
+                array += contact;
+            }
         }
-        return array += "\n]";
+        return array += " ]";
     }
 
     public void addContact(Scanner scan) {
         try {
             addContactLogic(scan);
         } catch (ScheduleFullException error) {
-            error.getMessage();
+            System.out.println(error.getMessage());
         }
     }
 
@@ -52,27 +54,26 @@ public class Schedule {
         try {
             System.out.println(schedule.toString());
         } catch (NullPointerException error) {
-            error.getMessage();
+            System.out.println(error.getMessage());
         }
     }
 
     public void queryContactByName(Schedule schedule, Scanner scan) {
         try {
-            queryContactByNameLogic(schedule, scan);
+            String contact = queryContactByNameLogic(schedule, scan);
+            System.out.println(contact);
         } catch (ContactNullException error) {
-            error.getMessage();
+            System.out.println(error.getMessage());
         }
     }
 
-    private void queryContactByNameLogic(Schedule schedule, Scanner scan) throws ContactNullException {
+    private String queryContactByNameLogic(Schedule schedule, Scanner scan) throws ContactNullException {
         System.out.println("Digite o nome para consultar");
-        String name = scan.nextLine();
+        String name = scan.next();
 
         for (Contact contact : schedule.getContacts()) {
-            if (contact != null) {
-                if (contact.getName().equalsIgnoreCase(name)) {
-                    System.out.println(contact.toString());
-                }
+            if (contact != null && (contact.getName().equalsIgnoreCase(name))) {
+                return contact.toString();
             }
         }
         throw new ContactNullException(name);
