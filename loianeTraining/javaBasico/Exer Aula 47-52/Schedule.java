@@ -16,16 +16,16 @@ public class Schedule {
         return array += "\n]";
     }
 
-    public void addContact() {
+    public void addContact(Scanner scan) {
         try {
-            addContactLogic();
+            addContactLogic(scan);
         } catch (ScheduleFullException error) {
             error.getMessage();
         }
     }
 
-    private void addContactLogic() throws ScheduleFullException {
-        Contact contact = createContact();
+    private void addContactLogic(Scanner scan) throws ScheduleFullException {
+        Contact contact = createContact(scan);
         boolean isScheduleFull = true;
         for (int i = 0; i < contacts.length; i++) {
             if (contacts[i] == null) {
@@ -39,16 +39,13 @@ public class Schedule {
         }
     }
 
-    private Contact createContact() {
-        Scanner scanner = new Scanner(System.in);
+    private Contact createContact(Scanner scan) {
         System.out.println("Digite o nome do Contato");
-        String name = scanner.next();
+        String name = scan.next();
         System.out.println("Digite o email do Contato");
-        String email = scanner.next();
+        String email = scan.next();
 
-        Contact contact = new Contact(name, email);
-        scanner.close();
-        return contact;
+        return new Contact(name, email);
     }
 
     public void queryContacts(Schedule schedule) {

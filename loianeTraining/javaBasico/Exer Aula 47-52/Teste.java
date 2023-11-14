@@ -17,7 +17,7 @@ public class Teste {
                     schedule.queryContactByName(schedule, scan);
                     break;
                 case 3:
-                    schedule.addContact();
+                    schedule.addContact(scan);
                     break;
                 default:
                     System.out.println("Opcao Invalida");
