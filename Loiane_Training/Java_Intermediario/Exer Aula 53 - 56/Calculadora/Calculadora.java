@@ -2,15 +2,9 @@ package Calculadora;
 
 public class Calculadora {
     public static void main(String[] args) {
-        double soma = Operacoes.SOMAR.executarOperacao(10, 10);
-        double subtracao = Operacoes.SUBTRAIR.executarOperacao(10, 10);
-        double multiplicacao = Operacoes.MULTIPLICAR.executarOperacao(10, 10);
-        double divisao = Operacoes.DIVIDIR.executarOperacao(10, 10);
-
-        System.out.println("Soma: " + soma);
-        System.out.println("Subtracao: " + subtracao);
-        System.out.println("Multiplicacao: " + multiplicacao);
-        System.out.println("Divisao: " + divisao);
+        for (Operacoes operacao : Operacoes.values()) {
+            System.out.println(operacao.executarOperacao(10, 5));
+        }
     }
 }
 
