@@ -1,0 +1,3 @@
+[submodule "Spring/KanBan"]
+	path = Spring/KanBan
+	url = https://github.com/GuiArmanLi/KanBan.git
