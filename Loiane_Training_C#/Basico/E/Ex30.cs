@@ -1,24 +1,26 @@
 using System;
 
-class Ex29
+class Ex30
 {
     static void Main(string[] args)
     {
-        int[] vetorA = new int[10] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-        int[] vetorB = new int[10] { 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };
+        int[] vetorA = new int[20] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };
+        int[] vetorB = new int[20];
         int[] vetorC = new int[20];
 
-        int a = 0;
-        for (int i = 0; i < 20; i++)
+        int b = 0;
+        int c = 0;
+        for (int i = 0; i < vetorA.Length; i++)
         {
-            if (i < 10)
+            if (vetorA[i] % 2 == 0)
             {
-                vetorC[i] = vetorA[i];
+                vetorB[b] = vetorA[i];
+                b++;
             }
             else
             {
-                vetorC[i] = vetorB[a];
-                a++;
+                vetorC[c] = vetorA[i];
+                c++;
             }
         }
 
