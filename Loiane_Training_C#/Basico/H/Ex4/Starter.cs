@@ -1,7 +1,7 @@
-class JogoDaVelha
+class Starter
 {
     static void Main(string[] args)
     {
-        //Jogo da velha com POO
+        Partida.IniciarPartida();
     }
 }
