@@ -1,0 +1,4 @@
+interface IDimensaoSuperficial
+{
+    double CalcularArea();
+}

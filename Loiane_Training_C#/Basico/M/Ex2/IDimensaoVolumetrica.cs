@@ -1,0 +1,4 @@
+interface IDimensaoVolumetrica
+{
+    double CalcularVolume();
+}
