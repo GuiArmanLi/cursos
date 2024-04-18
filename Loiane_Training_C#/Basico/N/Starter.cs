@@ -6,24 +6,60 @@ class Starter
     {
         Agenda agenda = new Agenda();
 
-        Contato contato1 = new Contato("Colossus", "40028922");
-        Contato contato2 = new Contato("T-Rex", "38741393");
-        Contato contato3 = new Contato("Super choque", "34525341");
-        Contato contato4 = new Contato("Guilherme Cabeca", "39585930");
-        Contato contato5 = new Contato("Mega mente", "324234523");
+        for (; ; )
+        {
+            Console.WriteLine("[0] - Fechar Agenda");
+            Console.WriteLine("[1] - Adicionar Contato");
+            Console.WriteLine("[2] - Consultar Contato");
+            int opcao = int.Parse(Console.ReadLine());
 
-        agenda.AdicionarContato(contato1);
-        Console.WriteLine();
-        agenda.AdicionarContato(contato2);
-        agenda.AdicionarContato(contato3);
-        agenda.AdicionarContato(contato5);
+            string resposta = "";
+            switch (opcao)
+            {
+                case 0:
+                    Console.WriteLine(agenda.ToString());
+                    return;
 
-        Console.WriteLine(agenda.ConsultarContato(0));
-        Console.WriteLine(agenda.ConsultarContato(1));
-        Console.WriteLine(agenda.ConsultarContato(3));
-        Console.WriteLine(agenda.ConsultarContato(5));
+                case 1:
+                    try
+                    {
+                        Console.Write("Digite o nome do contato: ");
+                        string nome = Console.ReadLine();
+                        if (nome.Length > 15)
+                        {
+                            throw new Exception("Nome do contato muito longo!");
+                        }
 
-        Console.WriteLine(agenda.ToString());
-        //Fazer whiile com 1 para add e 2 para consultar
+                        Console.Write("Digite o telefone do contato: ");
+                        string telefone = Console.ReadLine();
+                        if (telefone.Length != 8 || telefone.Length != 9 || telefone.Length != 11)
+                        {
+                            throw new Exception("Numero incorreto!");
+                        }
+
+                        resposta = agenda.AdicionarContato(new Contato(nome, telefone));
+                        System.Console.WriteLine(resposta);
+
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine(e.Message);
+                    }
+
+                    break;
+
+                case 2:
+                    Console.Write("Digite o Id do contato que deseja consultar: ");
+                    long id = long.Parse(Console.ReadLine());
+
+                    resposta = agenda.ConsultarContato(id);
+                    Console.WriteLine(resposta);
+                    break;
+
+                default:
+                    Console.WriteLine("Opcao invalida!");
+                    break;
+            }
+        }
     }
 }
