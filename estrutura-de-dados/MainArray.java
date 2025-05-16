@@ -1,7 +1,9 @@
 import estruturas.Array;
+import model.Contato;
+
 import java.util.ArrayList;
 
-public class Main {
+public class MainArray {
     public static void main(String[] args) {
 
         var list = new ArrayList<String>();
@@ -40,13 +42,15 @@ public class Main {
         System.out.println("Elemento no index 1 do array: " + array.get(1));
         System.out.println("Elemento no index 1 do list: " + list.get(1));
 
-        System.out.println("Index do elemento '3' do array: " + array.getIndex("3"));
+        System.out.println("Index do elemento '3' do array: " + array.indexOf("3"));
         System.out.println("Tamanho do array: " + array.size());
 
         System.out.println("array tem o valor '4'? " + array.contains("4"));
         System.out.println("array tem o valor '7'? " + array.contains("7"));
 
-        System.out.println("Ultimo index do array: " + array.lastIndexOf());
+        array.add("3");
+        System.out.println(array);
+        System.out.println("Ultimo index do array: " + array.lastIndexOf("3"));
 
         list.clear();
         array.clear();
@@ -62,9 +66,9 @@ public class Main {
         var contato = new Contato("Teste", "1234", "test@gmail.com");
         System.out.println(contatos.contains(contato));
         System.out.println(contatos.get(5));
-        System.out.println(contatos.getIndex(contato));
+        System.out.println(contatos.indexOf(contato));
         System.out.println(contatos.isEmpty());
-        System.out.println(contatos.lastIndexOf());
+        System.out.println(contatos.lastIndexOf(contato));
         System.out.println(contatos.size());
         contatos.clear();
         contatos.add(contato);
