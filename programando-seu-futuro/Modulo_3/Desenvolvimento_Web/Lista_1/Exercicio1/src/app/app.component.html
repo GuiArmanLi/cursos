@@ -1,0 +1,23 @@
+<div class="content-worker">
+    <div class="content-gestor">
+        <h2>Quadro Societário</h2>
+        <p>Nome: {{ gestor.nome }}</p>
+        <p>Cargo: {{ gestor.cargo }}</p>
+        <p>Rank: {{ gestor.funcional }}</p>
+        <p>Subordinados: {{ gestor.nomeSubordinado }}</p>
+    </div>
+
+    <div class="content-analista" *ngFor="let analista of analista">
+        <p>Nome: {{ analista.nome }}</p>
+        <p>Cargo: {{ analista.cargo }}</p>
+        <p>Rank: {{ analista.funcional }}</p>
+        <p>Gestor: {{ analista.nomeGestor }}</p>
+        <p>Subordinados : {{ analista.nomeSubordinado }}</p>
+    </div>
+
+    <div class="content-peao" *ngFor="let peaos of peao">
+        <p>Nome: {{peaos.nome}}</p>
+        <p>Rank: {{peaos.funcional}}</p>
+        <p>Cargo: {{peaos.cargo}}</p>
+    </div>
+</div>

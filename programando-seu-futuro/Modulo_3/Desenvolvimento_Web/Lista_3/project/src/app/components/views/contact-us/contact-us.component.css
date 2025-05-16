@@ -1,0 +1,22 @@
+aside {
+    background-color: white;
+    padding: 25px;
+}
+
+.institutional div {
+    display: inline-block;
+    width: 33%;
+    background-color: #BFCCB8;
+    padding: 15px;
+    margin: 15px 0px;
+    text-align: center;
+}
+
+address div {
+    display: inline-block;
+    width: 33%;
+}
+
+.Headquarter {
+    padding: 50px;
+}

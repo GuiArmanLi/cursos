@@ -1,0 +1,15 @@
+<div class="content">
+    <div class="content-gestor">
+        <h2>Quadro Societario</h2>
+        <p>Nome: {{ gestor.nome }}</p>
+        <p>Cargo: {{ gestor.cargo }}</p>
+        <p>Funcao: {{ gestor.funcional }}</p>
+    </div>
+
+    <div class="content-analista" *ngFor="let analista of analista">
+        <p>Nome: {{ analista.nome }}</p>
+        <p>Cargo: {{ analista.cargo }}</p>
+        <p>Funcao: {{ analista.funcional }}</p>
+        <p>Gestor: {{ analista.nomeGestor }}</p>
+    </div>
+</div>

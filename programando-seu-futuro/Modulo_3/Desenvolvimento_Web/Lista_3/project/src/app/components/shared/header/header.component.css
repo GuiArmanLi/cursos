@@ -1,0 +1,59 @@
+header {
+    background-color: #7EAA92;
+    width: 100%;
+    position: absolute;
+}
+
+h1 {
+    padding: 20px 5px 10px 50px;
+    color: white;
+    font-family: 'Courier Prime', monospace;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-title, .content-social {
+    width: 50%;
+}
+
+.content-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.content-social a {
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    margin: 0px 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #9ED2BE;
+    width: 100%;
+}
+
+nav a {
+    background-color: #FFD9B7;
+    padding: 10px;
+    width: fit-content;
+    text-decoration: none;
+}
+
+a:link, a:active, a:visited {
+    color: white;
+}
+
+nav a:hover{
+    background-color: white;
+    color: #FFD9B7;
+    transition: 0.5s;
+}

@@ -1,0 +1,10 @@
+1. O que é um algoritmo?	b) Uma sequência de instruções bem definidas para resolver um problema.
+2. Quais são as características principais de um algoritmo?	b) Claridade, finitude e eficiência.
+3. Quais são as formas mais comuns de representar algoritmos?	c) Fluxogramas, pseudocódigo e descrição narrativa.
+4. Qual é a vantagem do fluxograma em relação ao pseudocódigo?	b) Facilita a visualização e compreensão do processo.
+5. O que é lógica de programação?	d) O raciocínio sistemático usado para criar algoritmos e resolver problemas computacionais.
+6. O que caracteriza um laço infinito?	b) Um ciclo que executa indefinidamente sem uma condição de saída válida.
+7. Qual comando poderia evitar um laço infinito em um algoritmo?	a) A instrução "break" ou uma condição lógica de saída.
+8. Qual seria um exemplo de algoritmo de repetição simples?	a) Calcular a soma de uma lista de números usando um loop "for".
+9. Qual forma é usada para representar uma tomada de decisão no fluxograma?	a) Um losango.
+10. Qual algoritmo descreve melhor a preparação de uma receita culinária?	c) Um algoritmo que mistura sequência, decisão e repetição.

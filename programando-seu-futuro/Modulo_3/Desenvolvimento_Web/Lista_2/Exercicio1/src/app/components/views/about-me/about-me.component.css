@@ -1,0 +1,16 @@
+footer {
+    background-color: #504099;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+}
+
+a {
+    color: #FE7BE5;
+    text-decoration: none;
+}
+
+a:hover, a:active, :visited, a:focus {
+    color: white;
+} 

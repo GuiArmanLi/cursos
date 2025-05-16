@@ -1,0 +1,34 @@
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    display: flex;
+    background-color: #FE7BE5;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+}
+
+nav {
+    display: flex;
+    background-color: #504099;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    display: inline;
+    margin: 0px 10px;
+}
+
+a, a:active, a:visited {
+    color: white;
+    text-decoration: none;
+}

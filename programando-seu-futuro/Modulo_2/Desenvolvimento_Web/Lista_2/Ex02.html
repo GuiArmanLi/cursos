@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercicio 02</title>
+</head>
+
+<body>
+    <div class="content">
+        <img style="width: 500px;" src="img/Nubank.jpg" alt="Escritório do Banco Nubank">
+
+        <p id="texto"></p>
+    </div>
+</body>
+<script>
+    var nome = prompt("Nome: ")
+    var idade = Number.parseInt(prompt("Idade:"))
+    var endereco = prompt("Endereço:")
+    var telefone = Number.parseInt(prompt("Número de telefone:"))
+    var email = prompt("Email:")
+    var cpf = Number.parseInt(prompt("Digite seu cpf:"))
+
+    document.getElementById("texto").innerHTML = "Bem-Vindo(a) ao banco Nubank! seu nome é " + nome + "<br>" +
+        "Você tem " + idade + " anos e reside na rua " + endereco + "<br>" +
+        "Use o email " + email + " para usar o sistema" + "<br>" +
+        "Seu ID único é: " + cpf + "<br>" +
+        "Telefone para contato: " + telefone 
+</script>
+
+</html>

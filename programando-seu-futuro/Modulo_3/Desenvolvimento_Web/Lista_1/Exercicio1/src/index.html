@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Exercicio1</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <app-root>
+    <div class="gestor-wrapper">
+      <div class="gestor">
+        <span>Informacoes do gestor(a)</span>
+        <p>Nome: {{gestor.nome}}</p>
+        <p>Cargo: {gestor.cargo}</p>
+        <p>Funcional: {{gestor.funcional}}</p>
+      </div>
+
+      <div class="subordinados">
+        <p class="sub">Subordinados:</p>
+        <div *ngFor="let subordinados of gestor.nomeSubordinados">
+          <p>{{subordinado}}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="analistas-wrapper">
+      <div class="analistas" *ngFor="let analista of analistas">
+          <span>Informacoes de analistas</span>
+          <p>Nome: {{analista.nome}}</p>
+          <p>Cargo: {{analista.cargo}}</p>
+          <p>Funcional: {{analista.funcional}}</p>
+          <p>Gestor: {{analista.nomeGestor}}</p>
+      </div>
+    </div>
+  </app-root>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<div class="content">
+    <form action="#">
+        <p>Cadastre seu animal aqui!</p>
+        <input type="text" name="id" id="id" placeholder="id" [(ngModel)]="id">
+        <input type="text" name="name" id="name" placeholder="Nome"[(ngModel)]="name">
+        <input type="text" name="raca" id="raca" placeholder="Raça"[(ngModel)]="raca">
+        <button (click)="postAnimal()">Update</button>
+    </form>
+</div>

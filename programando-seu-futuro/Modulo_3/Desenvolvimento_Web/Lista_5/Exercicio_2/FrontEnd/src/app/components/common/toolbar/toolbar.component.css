@@ -1,0 +1,32 @@
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+
+    width: 100%;
+    height: 5%;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    padding: 5px 10px;
+    border-bottom: 3px solid yellow;
+    margin: 0px 20px;
+    
+    text-decoration: none;
+}
+
+a:hover {
+    transition: 1s;
+    color: white;
+    background-color: black;
+}
+
+a:active, a:visited {
+    color: white;
+}
+

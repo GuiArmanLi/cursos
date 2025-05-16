@@ -1,0 +1,23 @@
+<div class="content-main">
+  <div class="content" *ngFor="let cosmetico of cosmeticos">
+    <div class="content-image">
+      <img *ngIf="cosmetico.image; else imgDefault" src="{{ cosmetico.image }}" alt="{{ cosmetico.nome }}">
+      <ng-template #imgDefault>
+        <img src="https://placehold.co/200" alt="Default Image">
+      </ng-template>
+    </div>
+    <div class="content-information">
+      <div class="content-title">
+          <h4>{{ cosmetico.nome }}</h4>
+  
+        <span *ngIf="cosmetico.preco < 100; else descount"></span>
+        <ng-template #descount>
+          <span class="descount">10% Off</span>
+        </ng-template>
+      </div>
+      <div class="content-description">
+        <p>BlaBlaBla</p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    background-color: #BEADFA;
+    border-radius: 50px;
+}
+
+input, button {
+    width: 200px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+button {
+    cursor: pointer;
+}

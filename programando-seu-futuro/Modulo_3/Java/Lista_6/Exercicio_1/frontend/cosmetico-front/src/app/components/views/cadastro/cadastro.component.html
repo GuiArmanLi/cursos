@@ -1,0 +1,9 @@
+<div>
+    <form action="#">
+        <input type="number" name="id" value="id" placeholder="Id" [(ngModel)]="id">
+        <input type="text" name="nome" value="nome" placeholder="Nome do Produto" [(ngModel)]="nome">
+        <input class="preco" type="number" name="preco" value="preco" placeholder="Preco do Produto" [(ngModel)]="preco">
+        <input type="file" name="image" value="image" placeholder="Insira a Imagem" [(ngModel)]="image">
+        <button (click)="postProduto()">Atualizar</button>
+    </form>
+</div>

@@ -1,0 +1,16 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content-gestor, .content-analista {
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid purple;
+    border-radius: 25px;
+    margin: 10px;
+    background-color: white;
+}

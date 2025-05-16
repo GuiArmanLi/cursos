@@ -1,0 +1,19 @@
+{
+  "name": "internet-courses",
+  "version": "1.0.0",
+  "description": "Aprendendo com o curso de API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon version1_0_1.js"
+  },
+  "author": "Guilherme Santana Pessa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liste I Ex3</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      body,
+      html {
+        width: 100%;
+        height: 100%;
+      }
+
+      .formulario {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 250px;
+        padding: 50px;
+        border: 1px solid aqua;
+        border-radius: 50px;
+        background-color: aquamarine;
+      }
+
+      input {
+        width: 200px;
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 2px 0px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="formulario">
+      <input type="text" name="nome" id="nome" placeholder="Digite seu Nome" />
+      <input
+        type="number"
+        name="idade"
+        id="idade"
+        placeholder="Digite sua Idade"
+      />
+      <input
+        type="text"
+        name="endereco"
+        id="endereco"
+        placeholder="Digite seu Endereço"
+      />
+      <input type="submit" value="Enviar Dados!" onclick="exibirDados()" />
+    </div>
+  </body>
+  <script>
+    //You can use the script below or the script in the comment
+
+    let pessoas = [];
+
+    function exibirDados() {
+      let nome = document.getElementById("nome").value;
+      let idade = document.getElementById("idade").value;
+      let endereco = document.getElementById("endereco").value;
+
+      pessoa = { nome, idade, endereco };
+      pessoas.push(pessoa);
+      console.log(pessoas);
+    }
+
+    // var nome = prompt("Digite um nome!")
+    // var idade = Number.parseInt(prompt("Digite uma idade!"))
+    // var endereco = prompt("Digite o seu endereço!")
+
+    // document.write("Nome: ", nome, "<br>Idade: " ,idade, "<br>Endereço: ", endereco)
+  </script>
+</html>

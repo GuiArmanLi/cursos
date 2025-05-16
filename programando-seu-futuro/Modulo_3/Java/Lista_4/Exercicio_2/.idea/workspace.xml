@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="643292fb-3c2e-49da-9828-b1cbcfbd5567" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__net_minidev_json_smart_2_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_78.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_78.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_78.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_ow2_asm_asm_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_springframework_spring_aop_5_3_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_springframework_spring_beans_5_3_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_springframework_spring_context_5_3_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_springframework_spring_core_5_3_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_springframework_spring_expression_5_3_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_springframework_spring_test_5_3_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_springframework_spring_web_5_3_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lista_1/Exercicio_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_1/Exercicio1/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_1/Exercicio1/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_1/Exercicio1/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_1/Exercicio1/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_1/Exercicio1/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_1/Exercicio1/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_1/Exercicio1/src/app/models/analista.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_1/Exercicio1/src/app/models/analista.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_1/Exercicio1/src/app/models/comandos.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_1/Exercicio1/src/app/models/funcionario.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_1/Exercicio1/src/app/models/funcionario.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_1/Exercicio1/src/app/models/gestor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_1/Exercicio1/src/app/models/gestor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_1/Exercicio1/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_1/Exercicio1/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_3/project/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_3/project/src/app/components/shared/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_3/project/src/app/components/shared/footer/footer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_3/project/src/app/components/shared/header/header.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_3/project/src/app/components/shared/header/header.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_3/project/src/app/components/shared/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_3/project/src/app/components/shared/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_3/project/src/app/components/shared/header/header.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_3/project/src/app/components/views/contact-us/contact-us.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_3/project/src/app/components/views/contact-us/contact-us.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_3/project/src/app/components/views/list-products/list-products.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_3/project/src/app/components/views/list-products/list-products.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_3/project/src/app/components/views/list-products/list-products.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_3/project/src/app/components/views/list-products/list-products.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_3/project/src/app/components/views/list-products/list-products.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_3/project/src/app/components/views/list-products/list-products.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_3/project/src/app/components/views/list-products/list-products.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_3/project/src/app/components/views/personal-page/personal-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_3/project/src/app/components/views/personal-page/personal-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_3/project/src/images/Paulo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_3/project/src/images/iconMonkey.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_3/project/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_3/project/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_4/exercicio_1/src/app/service/animais.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Desenvolvimento_Web/Lista_4/exercicio_1/src/app/service/animais.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_1/New folder/mercadinho.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_1/New folder/mercadinho/mercadinho/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_1/New folder/mercadinho/mercadinho/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_1/New folder/mercadinho/mercadinho/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_1/New folder/mercadinho/mercadinho/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_1/New folder/mercadinho/mercadinho/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_1/New folder/mercadinho/mercadinho/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_1/New folder/mercadinho/mercadinho/src/main/java/com/example/mercadinho/MercadinhoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_1/New folder/mercadinho/mercadinho/src/main/java/com/example/mercadinho/controller/MercadinhoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_1/New folder/mercadinho/mercadinho/src/main/java/com/example/mercadinho/model/Produtos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_1/New folder/mercadinho/mercadinho/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_1/New folder/mercadinho/mercadinho/src/test/java/com/example/mercadinho/MercadinhoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_1/mercadinho.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_3/.idea/Lista_3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lista_3/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/.idea/Lista_4_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/coco.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__net_minidev_json_smart_2_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_76.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_76.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_76.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_ow2_asm_asm_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_springframework_spring_aop_5_3_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_springframework_spring_beans_5_3_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_springframework_spring_context_5_3_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_springframework_spring_core_5_3_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_springframework_spring_expression_5_3_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_springframework_spring_test_5_3_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_springframework_spring_web_5_3_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/coco/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/coco/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/coco/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/coco/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/coco/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/coco/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/coco/src/main/java/com/example/coco/CocoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/coco/src/main/java/com/example/coco/controller/ControllerJogo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/coco/src/main/java/com/example/coco/model/Jogo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/coco/src/main/java/com/example/coco/repository/BancoDados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/coco/src/main/java/com/example/coco/service/JogoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/coco/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_1/coco/coco/src/test/java/com/example/coco/CocoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/Lista_4_2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__net_minidev_json_smart_2_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_78.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_78.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_78.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_ow2_asm_asm_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_springframework_spring_aop_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_springframework_spring_beans_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_springframework_spring_context_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_springframework_spring_core_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_springframework_spring_expression_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_springframework_spring_test_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_springframework_spring_web_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/ecommerce.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__net_minidev_json_smart_2_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_78.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_78.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_78.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_ow2_asm_asm_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_springframework_spring_aop_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_springframework_spring_beans_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_springframework_spring_context_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_springframework_spring_core_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_springframework_spring_expression_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_springframework_spring_test_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_springframework_spring_web_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/ecommerce/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/ecommerce/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/ecommerce/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/ecommerce/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/ecommerce/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/ecommerce/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/ecommerce/src/main/java/com/example/ecommerce/EcommerceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/ecommerce/src/main/java/com/example/ecommerce/controller/Produtos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/ecommerce/src/main/java/com/example/ecommerce/model/Cosmetico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/ecommerce/src/main/java/com/example/ecommerce/repository/BancoDeDados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/ecommerce/src/main/java/com/example/ecommerce/services/CosmeticosService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/ecommerce/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_1/ecommerce/ecommerce/src/test/java/com/example/ecommerce/EcommerceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__net_minidev_json_smart_2_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_78.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_78.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_78.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_ow2_asm_asm_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_springframework_spring_aop_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_springframework_spring_beans_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_springframework_spring_context_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_springframework_spring_core_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_springframework_spring_expression_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_springframework_spring_test_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_springframework_spring_web_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/motel/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/motel/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/motel/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/motel/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/motel/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/motel/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/motel/src/main/java/com/example/motel/Controller/ControlerSala.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/motel/src/main/java/com/example/motel/MotelApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/motel/src/main/java/com/example/motel/Repository/BancoDeDados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/motel/src/main/java/com/example/motel/Service/ServiceSala.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/motel/src/main/java/com/example/motel/model/ModelSala.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/motel/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lista_4_2/Exercicio_2/motel/motel/src/test/java/com/example/motel/MotelApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2TcTkYQ0tGJ5yTDv2T8P0B5Hu8b" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Gui/OneDrive/Documentos/1 - Estudos/Programação/ProgramandoSeuFuturo/Modulo_3/Java/Lista_4/Exercicio_2"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="MotelApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.motel.MotelApplication" />
+      <module name="motel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.motel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MotelApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="643292fb-3c2e-49da-9828-b1cbcfbd5567" name="Changes" comment="" />
+      <created>1691341512508</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691341512508</updated>
+    </task>
+    <servers />
+  </component>
+</project>

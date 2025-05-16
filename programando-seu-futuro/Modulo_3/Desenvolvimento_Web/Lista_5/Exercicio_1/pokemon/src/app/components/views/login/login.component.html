@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="container-pokemon" *ngFor="let pokemon of pokemons">
+        <img [src]="pokemon.sprites.front_default" alt="Foto do {{pokemon.name}}">
+        <div class="pokemon-info">
+            <p>This is the {{ pokemon.name }}</p>
+            <!-- Colocar uma pagina separada com mais informacoes dos pokemon futuramente-->
+            <p>To see more info, <a href="https://pokeapi.co/api/v2/pokemon/{{pokemon.name}}" target="_blank" rel="external">Click here bro</a></p>
+        </div>
+    </div>
+</div>

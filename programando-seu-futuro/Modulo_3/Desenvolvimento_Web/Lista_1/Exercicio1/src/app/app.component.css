@@ -1,0 +1,25 @@
+:root {
+    --color1: #FF9B9B;
+    --color2: #FFD6A5;
+    --color3: #FFFEC4;
+}
+
+.content-worker {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    padding: 10px;
+    justify-content: center;
+}
+
+.content-gestor, .content-analista, .content-peao {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    width: 20%;
+}
+
+.content-gestor {background-color: #FF9B9B;}
+.content-analista {background-color: #FFD6A5;}
+.content-peao{background-color: #FFFEC4;}
