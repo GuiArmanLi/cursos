@@ -1,0 +1,15 @@
+<div class="content">
+    <div class="card" *ngFor="let suplement of suplements">
+        <div class="image-card">
+            <img src="{{ suplement.image }}" alt="{{ suplement.describe }}">
+        </div>
+    
+        <div class="card-information">
+            <h1>{{ suplement.name }}</h1>
+            <p>
+                This is the Top {{ suplement.ranking }} of our products.<br>
+                The situation of this product is {{ suplement.validate }}
+            </p>
+        </div>
+    </div>
+</div>
