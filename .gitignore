@@ -1,1 +1,45 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Build outputs
+/out/
+/target/
+/bin/
+/build/
+
+# Maven
+log/
+dependency-reduced-pom.xml
+release.properties
+
+# Gradle
+.gradle/
+build/
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE auto save
+*.shelf/
+
+# VSCode (caso você use em paralelo)
+.vscode/
+
+# Backup files
+*.swp
+*~
+
 *vs/
