@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade</title>
+    <link rel="stylesheet" href="./styles/global.css" />
+  </head>
+  <body>
+    <form action="form.php" method="post">
+      <h2>Registration Form</h2>
+
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required />
+      </div>
+
+      <div class="form-group">
+        <label for="telephone">Telephone</label>
+        <input
+          type="tel"
+          name="telephone"
+          id="telephone"
+          placeholder="(99) 99999-9999"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="date">Date of birth</label>
+        <input type="date" name="date" id="date" required />
+      </div>
+
+      <div class="form-group">
+        <span>Gender</span>
+        <label><input type="radio" name="gender" value="male" /> Male</label>
+        <label
+          ><input type="radio" name="gender" value="female" /> Female</label
+        >
+        <label><input type="radio" name="gender" value="other" /> Other</label>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea
+          name="message"
+          id="message"
+          maxlength="200"
+          rows="4"
+        ></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="enrollment">Enrollment</label>
+        <select name="enrollment" id="enrollment" required>
+          <option value="">Select...</option>
+          <option value="palestrante">Palestrante</option>
+          <option value="participant">Participant</option>
+          <option value="voluntary">Voluntary</option>
+        </select>
+      </div>
+
+      <div class="form-actions">
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
